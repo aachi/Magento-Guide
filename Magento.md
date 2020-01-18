@@ -1,8 +1,8 @@
-##Setting up Magento 2 with docker
+####Setting up Magento 2 with docker
 
 In below guide i have used database e.t.c with docker and app code on host machine 
 
-### setting up Mariadb with docker
+##### setting up Mariadb with docker
 ```bash
 mkdir data config
 
@@ -27,16 +27,15 @@ FLUSH PRIVILEGES;
 
 ```
 
-### Accessing using mysql with valentina studio
+##### Accessing using mysql with valentina studio
 
-### Get the keys from magento site
-
+##### Get the keys from magento site
+```bash 
 magento keys
-
 Public Key: 1120d99241b9925d7f325da625240ebf Copy
 Private Key: d3448c605252c2290ac3b2fa4b15e038 Copy 
-
-### Setting up webserver on host machine 
+```
+##### Setting up webserver on host machine 
 
 ```bash
 sudo apt-cache policy nginx
